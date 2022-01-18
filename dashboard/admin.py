@@ -4,6 +4,7 @@ from .models import Product
 
 admin.site.site_header = 'Dashboard'
 
+# Set up admin
 class ProductAdmin(admin.ModelAdmin):
     list_display = ('name', 'category','quantity')
     list_filter = ['category']

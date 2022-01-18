@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+# Admin defined category
 CATEGORY = (
     ('Undefined','Undefined'),
     ('A', 'A'),
@@ -9,6 +10,7 @@ CATEGORY = (
     ('C', 'C'),
 )
 
+# Construct the Database Model: Product
 class Product(models.Model):
     name = models.CharField(max_length=100, null=True)
     category = models.CharField(max_length=20, choices=CATEGORY, null=True)

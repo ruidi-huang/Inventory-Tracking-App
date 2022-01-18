@@ -6,6 +6,7 @@ import csv
 
 # Create your views here.
 
+# Render Home Page data
 def index(request):
     items = Product.objects.all()
     items_count = items.count()
@@ -14,7 +15,7 @@ def index(request):
     }
     return render(request, 'dashboard/index.html', context)
 
-
+# Render Product Page Data Display
 def product(request):
     items = Product.objects.all()
     items_count = items.count()
@@ -33,7 +34,7 @@ def product(request):
     }
     return render(request, 'dashboard/product.html', context)
 
-
+# Delete Product item and render real-time update for UI.
 def product_delete(request, pk):
     item = Product.objects.get(id=pk)
     if request.method=='POST':
@@ -42,6 +43,7 @@ def product_delete(request, pk):
     context={'item': item}
     return render(request, 'dashboard/product_delete.html', context)
 
+# Edit Product item and render real-time update for UI.
 def product_update(request, pk):
     item = Product.objects.get(id=pk)
     if request.method == 'POST':
@@ -56,7 +58,7 @@ def product_update(request, pk):
     }
     return render(request, 'dashboard/product_update.html', context)
 
-
+# Export Product data to a CSV file named "products.csv"
 def export_users_csv(request):
     response = HttpResponse(content_type='text/csv')
     response['Content-Disposition'] = 'attachment; filename="products.csv"'
