@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from .models import Product
 from .forms import ProductForm
+import csv
 
 # Create your views here.
 
@@ -55,3 +56,19 @@ def product_update(request, pk):
         'form': form, 
     }
     return render(request, 'dashboard/product_update.html', context)
+
+
+
+
+def export_users_csv(request):
+    response = HttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = 'attachment; filename="products.csv"'
+
+    writer = csv.writer(response)
+    writer.writerow(['name','category', 'quantity'])
+
+    users = Product.objects.all().values_list('name','category', 'quantity')
+    for user in users:
+        writer.writerow(user)
+
+    return response
