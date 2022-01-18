@@ -15,7 +15,6 @@ def index(request):
     return render(request, 'dashboard/index.html', context)
 
 
-
 def product(request):
     items = Product.objects.all()
     items_count = items.count()
@@ -56,8 +55,6 @@ def product_update(request, pk):
         'form': form, 
     }
     return render(request, 'dashboard/product_update.html', context)
-
-
 
 
 def export_users_csv(request):
