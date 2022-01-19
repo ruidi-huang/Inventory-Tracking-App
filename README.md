@@ -4,7 +4,7 @@ This is an inventory tracking web application that satisfies basic CRUD Function
 
 Written in Python using [Django](https://www.djangoproject.com/) Framework. Frontend is developed using [this](https://github.com/KenBroTech/Bootstrap-Dashboard-Interface-Design) template and [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/theming/) Framework.  
 
-###If you encounter any problems while trying to run the app, please reach out to me at [ruidih2@illinois.edu](mailto:ruidih2@illinois.edu)
+### If you encounter any problems while trying to run the app, please reach out to me at [ruidih2@illinois.edu](mailto:ruidih2@illinois.edu)
 
 Before we can run the app, we need to install some dependencies:  
 
