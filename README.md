@@ -10,19 +10,19 @@ Before we can run the app, we need to install some dependencies:
 
 Follow this if you have **macOS**:
 1. If you don't have python3 downloaded, download python3 [here](https://www.python.org/downloads/)
-3. Run `python --version` and `pip --version` to make sure they are installed
+3. Run `python --version` and `pip --version` to make sure they are installed. Make sure you have python3 in this step. If not, add 3 after python and pip in the following steps: `python` -> `python3`, `pip` -> `pip3`
 4. Run `pip install django`.
 12. Run `pip install django-crispy-forms`.
 5. Clone the repo `git clone https://github.com/ruidi-huang/Inventory-Tracking-App.git`
 6. Change the directory to `Inventory-Tracking-App`.
-7. Run `python3 manage.py runserver`.
+7. Run `python manage.py runserver`.
 8. Follow the instructions or go to [localhost:8000](http://localhost:8000/) (make sure you are not using the port [localhost:8000](http://localhost:8000/) first)
 
 Follow this if you have **Windows**:  
 
 1. I would suggest to use [Git Bash](https://git-scm.com/downloads) to interface with the OS.
-2. Download python from [here](https://www.python.org/downloads/).
-3. Run `python --version` and `pip --version` in bash shell to make sure they are installed
+2. Download python3 from [here](https://www.python.org/downloads/).
+3. Run `python --version` and `pip --version` in bash shell to make sure they are installed. Make sure you have python3 in this step. If not, add 3 after python and pip in the following steps: `python` -> `python3`, `pip` -> `pip3`
 4. Run `pip install django`.
 12. Run `pip install django-crispy-forms`.
 5. Clone the repo `git clone https://github.com/ruidi-huang/Inventory-Tracking-App.git`
