@@ -22,14 +22,13 @@ Follow this if you have **Windows**:
 
 1. Please Use [Git Bash](https://git-scm.com/downloads) to interface with the OS.
 2. Download python from [here](https://www.python.org/downloads/).
-3. Run `python --version` and `pip --version` to make sure they are installed
-4. Clone the repo `git clone https://github.com/ruidi-huang/Inventory-Tracking-App.git`
-5. Change the directory to `Inventory-Tracking-App`.
-8. `cd` back to `Inventory-Tracking-App`.
-9. Run both `pip3 install django` and `pip install django`(just to make sure).
-12. Run both `pip3 install django-crispy-forms` and `pip install django-crispy-forms`(Again, just to make sure).
-13. Run either `python manage.py runserver` or `python3 manage.py runserver`.
-14. Follow the instructions and go to [localhost:8000](http://localhost:8000/)
+3. Run `python --version` and `pip --version` in bash shell to make sure they are installed
+4. Run `pip install django`.
+12. Run `pip install django-crispy-forms`.
+5. Clone the repo `git clone https://github.com/ruidi-huang/Inventory-Tracking-App.git`
+6. Change the directory to `Inventory-Tracking-App`.
+13. Run `python manage.py runserver`.
+14. Follow the instructions or go to [localhost:8000](http://localhost:8000/)(make sure you are not running anything on localhost:8000 first)
 
 
 
