@@ -10,7 +10,7 @@ Follow this if you have ==macos==:
 2. We also need to make sure that pip3 is installed: [Install pip3](https://pip.pypa.io/en/stable/installation/)
 3. After we have pip3 installed, we need to run `pip3 install django` and then `pip3 install django-crispy-forms` to install Django and its necessary libraries.
 
-Follow this if you have ==Windows==:
+Follow this if you have <mark>Windows</mark>:
 1. Download python from [here](https://www.python.org/downloads/)
 2. Run `python --version` and `pip --version` to make sure they are installed
 3. clone the repo to your local machine or download from Github.
