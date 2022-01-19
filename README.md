@@ -2,7 +2,7 @@
 
 This is an inventory tracking web application that satisfies basic CRUD Functionality and ability to Push a button export product data to a CSV.  
 
-Written in Python using Django Framework. Frontend is developed using Bootstrap Framework.  
+Written in Python using [Django](https://www.djangoproject.com/) Framework. Frontend is developed using [this](https://github.com/KenBroTech/Bootstrap-Dashboard-Interface-Design) template and [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/theming/) Framework.  
 
 Before we can run the app, we need to install some dependencies:
 1. If you don't have python3 downloaded, download python3 [here](https://www.python.org/downloads/)
