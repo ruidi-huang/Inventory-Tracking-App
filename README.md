@@ -12,6 +12,10 @@ Follow this if you have **macOS**:
 1. If you don't have python3 downloaded, download python3 [here](https://www.python.org/downloads/)
 2. We also need to make sure that pip3 is installed: [Install pip3](https://pip.pypa.io/en/stable/installation/)
 3. After we have pip3 installed, we need to run `pip3 install django` and then `pip3 install django-crispy-forms` to install Django and its necessary libraries.
+4. clone the repo to your local machine or download from Github. 
+5. Change the directory to `Inventory-Tracking-App`.
+6. Run `python3 manage.py runserver`.
+7. Follow the instructions and go to [localhost:8000](http://localhost:8000/)
 
 Follow this if you have **Windows**:
 1. Download python from [here](https://www.python.org/downloads/)
@@ -21,15 +25,13 @@ Follow this if you have **Windows**:
 5. Run `pip3 install virtualenc` and then `virtualenv newenv`.
 6. go to `newenv/Scripts/activate` (path may vary depends on your machine)
 7. run `. acticate` to activate virtual enviornment.
-8. `cd` back to 
-9. Do both `pip3 install django` and `pip install django`.
+8. `cd` back to `Inventory-Tracking-App`.
+9. Run both `pip3 install django` and `pip install django`(just to make sure).
+10. Run both `pip3 install django-crispy-forms` and `pip install django-crispy-forms`(Again, just to make sure).
+11. Run either `python manage.py runserver` or `python3 manage.py runserver`.
+12. Follow the instructions and go to [localhost:8000](http://localhost:8000/)
 
-To run the app:
-1. Make sure all dependencies are downloaded.
-2. clone the repo to your local machine or download from Github. 
-3. Change the directory to `Inventory-Tracking-App`.
-4. Run `python3 manage.py runserver`.
-5. Follow the instructions and go to [localhost:8000](http://localhost:8000/)
+
 
 Project Demo:
 1. Home Page:  
