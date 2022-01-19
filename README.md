@@ -18,4 +18,11 @@ To run the app:
 5. Follow the instructions and go to [localhost:8000](http://localhost:8000/)
 
 Project Demo:
-	![main page](Demo_1.png)
+1. Home Page:  
+![main page](Demo_1.png)  
+2. Product Page:  
+![main page](Demo_2.png)  
+3. Edit Page:  
+![main page](Demo_3.png)  
+4. Delete Page:  
+![main page](Demo_4.png)
