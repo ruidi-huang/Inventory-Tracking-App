@@ -20,7 +20,7 @@ Follow this if you have **macOS**:
 
 Follow this if you have **Windows**:  
 
-1. Please Use [Git Bash](https://git-scm.com/downloads) to interface with the OS.
+1. I would suggest to use [Git Bash](https://git-scm.com/downloads) to interface with the OS.
 2. Download python from [here](https://www.python.org/downloads/).
 3. Run `python --version` and `pip --version` in bash shell to make sure they are installed
 4. Run `pip install django`.
