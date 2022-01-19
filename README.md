@@ -16,3 +16,6 @@ To run the app:
 3. Change the directory to `Inventory-Tracking-App`.
 4. Run `python3 manage.py runserver`.
 5. Follow the instructions and go to [localhost:8000](http://localhost:8000/)
+
+Project Demo:
+	![alt text](image.jpg)
