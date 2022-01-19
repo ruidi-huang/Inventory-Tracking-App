@@ -18,4 +18,4 @@ To run the app:
 5. Follow the instructions and go to [localhost:8000](http://localhost:8000/)
 
 Project Demo:
-	![alt text](image.jpg)
+	![main page](Demo_1.png)
