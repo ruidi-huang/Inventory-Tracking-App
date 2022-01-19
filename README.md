@@ -7,7 +7,7 @@ Written in Python using [Django](https://www.djangoproject.com/) Framework. Fron
 Before we can run the app, we need to install some dependencies:
 1. If you don't have python3 downloaded, download python3 [here](https://www.python.org/downloads/)
 2. We also need to make sure that pip3 is installed: [Install pip3](https://pip.pypa.io/en/stable/installation/)
-3. After we have pip3 installed, we need to run `pip3 install django` and then `pip3 install django-crispy-forms`.
+3. After we have pip3 installed, we need to run `pip3 install django` and then `pip3 install django-crispy-forms` to install Django and its necessary libraries.
 
 
 To run the app:
