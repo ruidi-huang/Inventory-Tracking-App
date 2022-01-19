@@ -19,10 +19,10 @@ To run the app:
 
 Project Demo:
 1. Home Page:  
-![main page](Demo_1.png)  
+![home page](Demo_1.png)  
 2. Product Page:  
-![main page](Demo_2.png)  
+![product page](Demo_2.png)  
 3. Edit Page:  
-![main page](Demo_3.png)  
+![edit page](Demo_3.png)  
 4. Delete Page:  
-![main page](Demo_4.png)
+![delete page](Demo_4.png)
