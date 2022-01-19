@@ -4,11 +4,21 @@ This is an inventory tracking web application that satisfies basic CRUD Function
 
 Written in Python using [Django](https://www.djangoproject.com/) Framework. Frontend is developed using [this](https://github.com/KenBroTech/Bootstrap-Dashboard-Interface-Design) template and [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/theming/) Framework.  
 
-Before we can run the app, we need to install some dependencies:
+Before we can run the app, we need to install some dependencies:  
+Follow this if you have ==macos==:
 1. If you don't have python3 downloaded, download python3 [here](https://www.python.org/downloads/)
 2. We also need to make sure that pip3 is installed: [Install pip3](https://pip.pypa.io/en/stable/installation/)
 3. After we have pip3 installed, we need to run `pip3 install django` and then `pip3 install django-crispy-forms` to install Django and its necessary libraries.
 
+Follow this if you have ==Windows==:
+1. Download python from [here](https://www.python.org/downloads/)
+2. Run `python --version` and `pip --version` to make sure they are installed
+3. clone the repo to your local machine or download from Github.
+4. Change the directory to `Inventory-Tracking-App`.
+5. Run `pip3 install virtualenc` and then `virtualenv newenv`.
+6. go to `newenv/Scripts/activate` (path may vary depends on your machine)
+7. run `. acticate` to activate virtual enviornment.
+8. Do both `pip
 
 To run the app:
 1. Make sure all dependencies are downloaded.
