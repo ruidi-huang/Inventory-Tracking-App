@@ -16,7 +16,7 @@ Follow this if you have **macOS**:
 5. Clone the repo `git clone https://github.com/ruidi-huang/Inventory-Tracking-App.git`
 6. Change the directory to `Inventory-Tracking-App`.
 7. Run `python3 manage.py runserver`.
-8. Follow the instructions or go to [localhost:8000](http://localhost:8000/) (make sure you are not using the port [localhost:8000] first)
+8. Follow the instructions or go to [localhost:8000](http://localhost:8000/) (make sure you are not using the port [localhost:8000](http://localhost:8000/) first)
 
 Follow this if you have **Windows**:  
 
@@ -28,7 +28,7 @@ Follow this if you have **Windows**:
 5. Clone the repo `git clone https://github.com/ruidi-huang/Inventory-Tracking-App.git`
 6. Change the directory to `Inventory-Tracking-App`.
 13. Run `python manage.py runserver`.
-14. Follow the instructions or go to [localhost:8000](http://localhost:8000/) (make sure you are not using the port [localhost:8000] first)
+14. Follow the instructions or go to [localhost:8000](http://localhost:8000/) (make sure you are not using the port [localhost:8000](http://localhost:8000/) first)
 
 
 
